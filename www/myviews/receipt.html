@@ -1,0 +1,33 @@
+<ion-view view-title="Here is your receipt">
+<ion-content ng-controller="myCtrl">
+
+<div class="steal list card">
+  <div class=" steal item item-body">
+<div class="centerstuff">
+    <p class="receiptinfo">
+      Dear <strong>{{info.first }} {{info.surname}}</strong>  thanks for choosing Stockholm B&B <br><br>
+
+      <strong>Checking in time:</strong><br> {{info.checkin | date}}<br>
+      <strong>Checking out time:</strong><br> {{info.checkout | date}}<br>
+      <strong>Room:</strong>{{info.roomid.title}}<br>
+      <br><br><br>
+      <strong>Firstname:</strong>{{" " + info.first}}<br><br>
+      <strong>Surname:</strong>{{" " + info.surname}}<br><br>
+      <strong>Phonenumber:</strong>{{" " + info.phone}}<br><br>
+      <strong>Email:</strong>{{" " + info.mail}}<br><br>
+      <strong>Children:</strong>{{" " + info.children}}<br><br>
+      <strong>Adults:</strong>{{" " + info.adults}}<br><br>
+
+    </p>
+       <!-- Starting the function the makes the app restart -->
+      <a ng-click="restartApp()" round class="button button-full button-balanced">
+  Confirm
+</a>
+
+</div>
+  </div>
+
+</div>
+
+</ion-content>
+</ion-view>

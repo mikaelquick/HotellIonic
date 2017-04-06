@@ -1,0 +1,35 @@
+<ion-view view-title="The magical room">
+<ion-content ng-controller="myCtrl" has-subheader="false" >
+
+<div class="item-body">
+  <div class="card item-text-wrap padding morepadding">
+   <!-- Reccives the info from the roomobject that I placed in roomid -->
+    <h3 class="centerstuff">{{info.roomid.title}}</h3>
+    <h5 class="centerstuff">{{info.roomid.type}}</h5>
+    
+     <!-- Using the slidebox to slide the images -->
+    <ion-slide-box on-slide-changed="slideHasChanged($index)">
+    <ion-slide>
+    <div id="slideboxcontent">
+      <img class="box blue full-image" ng-src="img/{{info.roomid.link1}}">
+    </div>
+    </ion-slide>
+    <ion-slide>
+    <img class="box blue full-image"  ng-src="img/{{info.roomid.link2}}">
+    </ion-slide>
+    <ion-slide>
+    <img class="box blue full-image" ng-src="img/{{info.roomid.link3}}">
+    
+    </ion-slide>
+    </ion-slide-box>
+    <p>
+      {{info.roomid.info}}
+    </p>
+    <div class="centerstuff">
+      <h2><strike>{{info.roomid.oldprice}}</strike></h2>
+      <h1 id="redid">{{info.roomid.price}}</h1>
+    </div>
+    <a ng-href="#/info" round class="button button-full button-balanced" >  Confirm</a>
+  </div>
+  </ion-content>
+  </ion-view>

@@ -1,0 +1,29 @@
+ [
+		{
+		 "name":"Single Room I",
+		 "shortname":"Single_Room_I",
+		 "information":"Bla, bla"		
+		},
+		{
+		 "name":"Single Room II",
+		 "shortname":"Single_Room_II",
+		 "information":"Bla, bla"		
+		},
+		{ 
+		 "name":"Double Room I",
+		 "shortname":"Double_Room_I",
+		 "information":"Bla, bla"		
+		},
+		{
+		 "name":"Double Room II",
+		 "shortname":"Double_Room_II",
+		 "information":"Bla, bla"		
+		},
+		{
+		 "name":"Family Room",
+		 "shortname":"Family_Room",
+		 "information":"Bla, bla"		
+		}
+]
+
+

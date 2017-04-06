@@ -1,0 +1,28 @@
+<ion-view>
+<ion-content  has-subheader="false" ng-controller="myCtrl">
+
+
+
+ <div class="item-body">
+   <div ng-repeat="x in database" in dataset" class="morepadding card item-text-wrap padding" ng-href="#/list/">
+   <h3 class="centerstuff">{{x.title}}</h3>
+   <h5 class="centerstuff">{{x.type}}</h5>
+   <img class="full-image" ng-src="img/{{x.link1}}">
+   <p>
+         {{x.info}}
+    </p>
+    <div class="centerstuff">
+    <h2><strike>{{x.oldprice}}</strike></h2>
+    <h1 id="redid">{{x.price}}</h1>
+
+    <a ng-click="gettheobject(x)" ng-href="#/room/{{x.id}}" round class="button button-full button-balanced" >  Look closer</a>
+</div>
+</div>
+
+</div>
+
+
+
+
+</ion-content>
+</ion-view>

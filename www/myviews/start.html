@@ -1,0 +1,43 @@
+<ion-view view-title="Stockholm bread & breakfast" class="view-title">
+<ion-content  has-subheader="false" scroll="false">
+<div id="startlogo">
+  <img class="full-image" ng-src="img/logo2.png">
+</div>
+
+<div class="item-body">
+<!-- Using formconnect to connect the button in the footerbar since I cant reach the content from the footerbar -->
+  <form name="startForm.form_connect" novalidate>
+    <label class="whiteback item item-input">
+      <span  class="input-label">Check in</span>
+
+      <!-- Currentdate gives me the current date, and I put it as the minimum value -->
+      <input class="whiteback" name="checkin" ng-model="info.checkin" type="date"required min="{{currentdate | date: 'yyyy-MM-dd' }}">
+    </label>
+    <br>
+    <label class="whiteback item item-input">
+      <span class="input-label">Checkout</span>
+      <input name="checkout" ng-model="info.checkout" type="date"required min="{{currentdate | date: 'yyyy-MM-dd' }}">
+    </label>
+    <br>
+    <label class="whiteback item item-input">
+      <span class="input-label">Adults</span>
+      <input name="adults" ng-value="1" [(ngModel)]="info.adults"  type="number" required>
+    </label>
+    <br>
+    <label class="whiteback item item-input">
+      <span class="input-label">Children</span>
+      <input name="children" ng-value="0" [(ngModel)]="info.children" type="number" required>
+    </label>
+
+  </form>
+</div>
+</ion-content>
+<ion-footer-bar class="bar-positive tabs tabs-balanced">
+
+<!-- Connecting the form to footerbar. The button is disabled until all the required inputs are filled in -->
+    <a ng-click="save(startForm.form_connect)" ng-disabled="startForm.form_connect.$invalid" ng-href="#/list" round class="button-full button-balanced tab-item tab-item-active">
+  Book
+</a>
+
+</ion-footer-bar>
+</ion-view>

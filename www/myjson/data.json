@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "title":"Room 568",
+    "link1":"room568_1.jpg",
+    "link2":"room568_2.jpg",
+    "link3":"room568_3.jpg",
+    "price": "100$",
+    "oldprice": "1000$",
+    "type": "Singelroom",
+    "info": "The guest rooms include a work desk, cable TV channels and a private bathroom with shower.An ecological breakfast buffet is served each morning. Bistro Malmen serves European dishes, with French cuisine a particular speciality. Two of the bars offer regular evening entertainment with DJs and live music.Guests at Scandic Malmen Hotel have free access to the hotel's gym. The lobby shop sells snacks, drinks and toiletries.Medborgarplatsen Metro Station is right next to the hotel, and Stockholm Central Station is just a 5-minute ride away. Södermalm is a great choice for travellers interested in old town exploring, culture and museums.This is our guests' favourite part of Stockholm, according to independent reviews.We speak your language!"
+  },
+  {
+   "id": "2", 
+    "title":"Room 1090",
+    "link1":"hotel2.jpg",
+    "link2":"hotel2.jpg",
+    "link3":"hotel2.jpg",
+    "info":"Set in two 19th-century buildings in Stockholm’s main shopping district, this hotel is 3 minutes’ walk from the Royal Dramatic Theatre. Rooms feature free WiFi access and either Gustavian-style or contemporary décor.Hotel Drottning Kristina’s rooms feature flat-screen TVs and tea/coffee facilities. All offer views of the courtyard or Birger Jarlsgatan street.Azzolino, the in-house restaurant, offers a breakfast buffet,lunch and dinner. In summer, meals can be enjoyed in the courtyard.Östermalmstorg Metro Station is 300 m from Hotel Drottning Kristina. Boats to the Stockholm Archipelago depart from Nybroviken Harbour, 500 m away. Sturebadet Spa is a 2-minute walk from the hotel. Östermalm is a great choice for travellers interested in food, shopping and museums.This is our guests' favourite part of Stockholm, according to independent reviews.This property is also rated for the best value in Stockholm! Guests are getting more for their money when compared to other properties in this city.We speak your language!",
+    "type": "Singelroom",
+    "price": "50$",
+    "oldprice": "500$"
+  },
+  {
+   "id": "3", 
+    "title":"Room 400",
+    "link1":"room500.jpeg",
+    "link2":"room500.jpeg",
+    "link3":"room500.jpeg",
+    "info":"Set in two 19th-century buildings in Stockholm’s main shopping district, this hotel is 3 minutes’ walk from the Royal Dramatic Theatre. Rooms feature free WiFi access and either Gustavian-style or contemporary décor.Hotel Drottning Kristina’s rooms feature flat-screen TVs and tea/coffee facilities. All offer views of the courtyard or Birger Jarlsgatan street.Azzolino, the in-house restaurant, offers a breakfast buffet,lunch and dinner. In summer, meals can be enjoyed in the courtyard.Östermalmstorg Metro Station is 300 m from Hotel Drottning Kristina. Boats to the Stockholm Archipelago depart from Nybroviken Harbour, 500 m away. Sturebadet Spa is a 2-minute walk from the hotel. Östermalm is a great choice for travellers interested in food, shopping and museums.This is our guests' favourite part of Stockholm, according to independent reviews.This property is also rated for the best value in Stockholm! Guests are getting more for their money when compared to other properties in this city.We speak your language!",
+    "type": "Doubelroom",
+    "price": "99$",
+    "oldprice": "999$"
+  },
+   {
+   "id": "4", 
+    "title":"Room 900",
+    "link1":"room900.jpeg",
+    "link2":"room900.jpeg",
+    "link3":"room900.jpeg",
+    "info":"Set in two 19th-century buildings in Stockholm’s main shopping district, this hotel is 3 minutes’ walk from the Royal Dramatic Theatre. Rooms feature free WiFi access and either Gustavian-style or contemporary décor.Hotel Drottning Kristina’s rooms feature flat-screen TVs and tea/coffee facilities. All offer views of the courtyard or Birger Jarlsgatan street.Azzolino, the in-house restaurant, offers a breakfast buffet,lunch and dinner. In summer, meals can be enjoyed in the courtyard.Östermalmstorg Metro Station is 300 m from Hotel Drottning Kristina. Boats to the Stockholm Archipelago depart from Nybroviken Harbour, 500 m away. Sturebadet Spa is a 2-minute walk from the hotel. Östermalm is a great choice for travellers interested in food, shopping and museums.This is our guests' favourite part of Stockholm, according to independent reviews.This property is also rated for the best value in Stockholm! Guests are getting more for their money when compared to other properties in this city.We speak your language!",
+    "type": "Doubelroom",
+    "price": "29$",
+    "oldprice": "299$"
+  },
+  {
+     "id": "5", 
+    "title":"Room 900",
+    "link1":"room333.jpg",
+    "link2":"room333.jpg",
+    "link3":"room333.jpg",
+    "info":"Set in two 19th-century buildings in Stockholm’s main shopping district, this hotel is 3 minutes’ walk from the Royal Dramatic Theatre. Rooms feature free WiFi access and either Gustavian-style or contemporary décor.Hotel Drottning Kristina’s rooms feature flat-screen TVs and tea/coffee facilities. All offer views of the courtyard or Birger Jarlsgatan street.Azzolino, the in-house restaurant, offers a breakfast buffet,lunch and dinner. In summer, meals can be enjoyed in the courtyard.Östermalmstorg Metro Station is 300 m from Hotel Drottning Kristina. Boats to the Stockholm Archipelago depart from Nybroviken Harbour, 500 m away. Sturebadet Spa is a 2-minute walk from the hotel. Östermalm is a great choice for travellers interested in food, shopping and museums.This is our guests' favourite part of Stockholm, according to independent reviews.This property is also rated for the best value in Stockholm! Guests are getting more for their money when compared to other properties in this city.We speak your language!",
+    "type": "Familyroom",
+    "price": "19$",
+    "oldprice": "599$"
+  }
+]
